@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #A3CAF3;
+	/* background-image: url(../img/galaxy.jpg); */
+	/* background-repeat: no-repeat; */
+}
+.wrapper {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	/* background-color: #B89196 #D39D71; */
+	background-color: #686d ;
+	
+}
+h1{
+	text-align: center;
+}
+p, [for=abd-type] {
+	margin: 2rem 0 1 0;
+}
+section { 
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+
+fieldset{
+	border: 2px solid #A3CAF3;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+
+legend{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 1.5rem 0 1rem 0;
+	text-align: center;
+}
+
+label{
+	display: block;
+	padding-bottom: 0.3rem;
+	margin-top: 2rem;
+	font-weight: 300;
+	color: cornsilk;
+}
+
+select{
+	font-size: 1rem;
+}
+button{
+	background-color:#1c2936;
+	color: rgb(233, 223, 223);
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	margin: 2rem 0;
+	border: none;
+}
+button:hover{
+	background-color: cornflowerblue;
+	color: rgb(27, 26, 26);
+}
+input:not([type=radio]):not([type=checkbox]), textarea, select{
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	width: 20rem;
+	height: 2rem;
+	padding: 0 1rem;
+	font-size: 1rem;
+	border-radius: 10px;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #2d4157;
+}
+/* the not in the code above is called an exclude selector of an attribute */
+textarea{
+	height: 10rem;
+	padding: 1rem;
+
+}
+input::placeholder{
+/* font-weight: normal; */
+	color: #A3CAF3;
+}
+
+
+hr{
+	display: flex;
+	flex-direction: row;
+}
+
